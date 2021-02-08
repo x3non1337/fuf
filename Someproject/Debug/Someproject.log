@@ -1,3 +1,8 @@
-﻿  Source.c
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Someproject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Source.c
+C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(23,9): warning C4477: 'scanf' : format string '%hi' requires an argument of type 'short *', but variadic argument 1 has type 'int *'
+C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(23,9): message : consider using '%i' in the format string
+C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(23,9): message : consider using '%Ii' in the format string
+C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(23,9): message : consider using '%I32i' in the format string
 C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(46,20): warning C4101: 't': unreferenced local variable
-  Someproject.vcxproj -> C:\Users\zelen\source\repos\SomeTask\Debug\Someproject.exe
+  Someproject.vcxproj -> C:\Users\zelen\source\repos\SomeTask\Debug\First struct.exe
