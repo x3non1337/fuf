@@ -1,0 +1,3 @@
+﻿  Source.c
+C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(46,20): warning C4101: 't': unreferenced local variable
+  Someproject.vcxproj -> C:\Users\zelen\source\repos\SomeTask\Debug\Someproject.exe
