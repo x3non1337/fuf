@@ -1,8 +1,33 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Someproject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(491,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Someproject.vcxproj).  Это может привести к ошибкам очистки и перестроения.
   Source.c
-C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(23,9): warning C4477: 'scanf' : format string '%hi' requires an argument of type 'short *', but variadic argument 1 has type 'int *'
-C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(23,9): message : consider using '%i' in the format string
-C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(23,9): message : consider using '%Ii' in the format string
-C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(23,9): message : consider using '%I32i' in the format string
-C:\Users\zelen\source\repos\SomeTask\Someproject\Source.c(46,20): warning C4101: 't': unreferenced local variable
-  Someproject.vcxproj -> C:\Users\zelen\source\repos\SomeTask\Debug\First struct.exe
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(8,19): error C2079: "t" использует не имеющую определения структуру struct "Sportteam"
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(12,18): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(12,9): warning C4473: "scanf": передано недостаточно аргументов для строки формата
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(12,9): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(12,9): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%s"
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(14,18): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(14,9): warning C4473: "scanf": передано недостаточно аргументов для строки формата
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(14,9): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(14,9): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%s"
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(16,20): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(16,9): warning C4473: "scanf": передано недостаточно аргументов для строки формата
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(16,9): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(16,9): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%hi"
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(22,10): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(24,13): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(30,32): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(30,10): warning C4473: "printf": передано недостаточно аргументов для строки формата
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(30,10): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(30,10): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%s"
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(31,27): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(31,10): warning C4473: "printf": передано недостаточно аргументов для строки формата
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(31,10): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(31,10): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%s"
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(32,28): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(32,10): warning C4473: "printf": передано недостаточно аргументов для строки формата
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(32,10): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(32,10): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%d"
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(34,51): error C2109: для индекса требуется массив или указатель
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(34,9): warning C4473: "printf": передано недостаточно аргументов для строки формата
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(34,9): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\Павел\source\repos\SomeStruct\Someproject\Source.c(34,9): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%s"
